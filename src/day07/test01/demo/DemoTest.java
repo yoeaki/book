@@ -25,10 +25,13 @@ public class DemoTest {
         Integer e = 188;
         Integer f = 188;
         System.out.println("188:" + e.equals(f));
-
+        System.out.println("结果：" + e.equals(e));
         /*
         * 可以判断值相等
         *
         * */
+
+        String str = "ab";
+        System.out.println("null:" + str.hashCode());
     }
 }
